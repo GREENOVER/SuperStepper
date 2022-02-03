@@ -11,6 +11,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+iOS 14.0🆙
+Swift 5.0🆙
+Only can use in SwiftUI
+
 ## Installation
 
 SuperStepper is available through [CocoaPods](https://cocoapods.org). To install
@@ -22,7 +26,7 @@ pod 'SuperStepper'
 
 ## Author
 
-chanwoo, humains29@gmail.com
+[GREENOVER](https://github.com/GREENOVER), humains29@gmail.com
 
 ## License
 
