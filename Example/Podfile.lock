@@ -1,0 +1,16 @@
+PODS:
+  - SuperStepper (0.1.0)
+
+DEPENDENCIES:
+  - SuperStepper (from `../`)
+
+EXTERNAL SOURCES:
+  SuperStepper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SuperStepper: 0f6bf6bbba893fa769de5af74f93d170df71b461
+
+PODFILE CHECKSUM: 1d832772c78e372ed26761003abb03ed5ac1a102
+
+COCOAPODS: 1.11.2

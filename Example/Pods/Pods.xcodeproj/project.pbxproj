@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09F23CD073AFFAC8676658796289625C /* SuperStepper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A762E77905B4B5B3CEF064CBAC4EDE7 /* SuperStepper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		155207A03B4C098A5AA945BD0D12774B /* Pods-SuperStepper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF4739AF5149F5180ABAB7B497ABE7 /* Pods-SuperStepper_Tests-dummy.m */; };
+		54FFD8B69197980A210F6C53B3E882E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		778101EDD4E68629266BBE58977BE643 /* Pods-SuperStepper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5985827A41C5C06E21F4A286FB20F7EF /* Pods-SuperStepper_Example-dummy.m */; };
+		9843C1ACECE863B49E6580E22937A349 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A04C71624AD8CF2CD95B8F5835D587D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A6326F9BC9968792D3AC6B9700E47A1B /* SuperStepper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C478D8AA8BF487E0AF9F4335AA7799D /* SuperStepper-dummy.m */; };
+		C0DF1D1E181A4D2C4C7C22782B5F8624 /* Pods-SuperStepper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FEC30252D1B879B2C93476417D05212 /* Pods-SuperStepper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2B9FF513FD67AE6304CCCC3623A0F37 /* Pods-SuperStepper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12276A1F3A203561672E7899CB73CEB4 /* Pods-SuperStepper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F85335BE156B53E0828378B0E51B9509 /* SuperStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D4D0D6E6FC49705D119D83582CD3CC /* SuperStepper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08B005DC4CCFF884214D361BE9D70782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72B579D40718F6FA7EE767E94F82BD45;
+			remoteInfo = SuperStepper;
+		};
+		8E7E1013298C13FA573847CE548A6A32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6A066E847F5C0FE71450718665BB8F2;
+			remoteInfo = "Pods-SuperStepper_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A762E77905B4B5B3CEF064CBAC4EDE7 /* SuperStepper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperStepper-umbrella.h"; sourceTree = "<group>"; };
+		0BC20B7586B7B7FD8A8C17C669554D04 /* Pods-SuperStepper_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SuperStepper_Tests"; path = Pods_SuperStepper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12276A1F3A203561672E7899CB73CEB4 /* Pods-SuperStepper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SuperStepper_Example-umbrella.h"; sourceTree = "<group>"; };
+		1DCF4739AF5149F5180ABAB7B497ABE7 /* Pods-SuperStepper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SuperStepper_Tests-dummy.m"; sourceTree = "<group>"; };
+		2B337ABA31F6708A334ECA6DA1B712F3 /* SuperStepper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SuperStepper.release.xcconfig; sourceTree = "<group>"; };
+		2B36380FF330944D00EC7938DF662D1D /* Pods-SuperStepper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperStepper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C478D8AA8BF487E0AF9F4335AA7799D /* SuperStepper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SuperStepper-dummy.m"; sourceTree = "<group>"; };
+		2D08FB52A5A63FD94E053A6B902B5213 /* Pods-SuperStepper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SuperStepper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F3A22EA63AC19D507A405FDA6F31B06 /* SuperStepper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SuperStepper.debug.xcconfig; sourceTree = "<group>"; };
+		2FD3818D7C9030F280EE81A3A2C97EE9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2FEC30252D1B879B2C93476417D05212 /* Pods-SuperStepper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SuperStepper_Tests-umbrella.h"; sourceTree = "<group>"; };
+		33D4D0D6E6FC49705D119D83582CD3CC /* SuperStepper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuperStepper.swift; path = SuperStepper/Classes/SuperStepper.swift; sourceTree = "<group>"; };
+		3CC729424941C9A1B558AA765F0E66F2 /* Pods-SuperStepper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperStepper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		45F414090AC341AA69CBEB71DA0AC4C8 /* Pods-SuperStepper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SuperStepper_Example-frameworks.sh"; sourceTree = "<group>"; };
+		489EA4DF0BB1C2E7D98994B9AE9C2AB9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4C4870A0664568E9B6C4FBAC20460FCC /* SuperStepper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SuperStepper.modulemap; sourceTree = "<group>"; };
+		546B3968F578E0BFA038FC8CE67FC5DF /* Pods-SuperStepper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SuperStepper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5985827A41C5C06E21F4A286FB20F7EF /* Pods-SuperStepper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SuperStepper_Example-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		84C99B0D2C115E14632E3AB0701A3378 /* Pods-SuperStepper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SuperStepper_Example.modulemap"; sourceTree = "<group>"; };
+		8B445094B6CABD139232D795D0CDB1CB /* Pods-SuperStepper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperStepper_Example-Info.plist"; sourceTree = "<group>"; };
+		8FF9E2CFB094C5570CF8A9C023B0024E /* Pods-SuperStepper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperStepper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		915D1C2FB06B069E619250B8FA2F3CAB /* SuperStepper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SuperStepper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3303979B816562AEE4FE6C156DE804F /* Pods-SuperStepper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SuperStepper_Tests.modulemap"; sourceTree = "<group>"; };
+		A83E7E5838B880F6F8BEBF973DB07BEA /* SuperStepper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SuperStepper-prefix.pch"; sourceTree = "<group>"; };
+		AECF0EB19FD793389013B6997F04D1B7 /* SuperStepper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SuperStepper-Info.plist"; sourceTree = "<group>"; };
+		C4BBCE6CA9FF151B4F7D9038DE6A16B9 /* Pods-SuperStepper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperStepper_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E0104D98A156412AD3F3BFA00EDF50AF /* SuperStepper */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SuperStepper; path = SuperStepper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06709DBEECE910D8565101B4D359CE5 /* Pods-SuperStepper_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SuperStepper_Example"; path = Pods_SuperStepper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5307B36F8015A5F7F03021A7A3A8231 /* Pods-SuperStepper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperStepper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E5B48F980DDA407FA3F767BB00BBDF9A /* Pods-SuperStepper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SuperStepper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6FC212FADE3FF2E78E523645A064E47 /* Pods-SuperStepper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SuperStepper_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66E18C44EA30701EA05DE3F3CA08CF13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04C71624AD8CF2CD95B8F5835D587D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D3BE55A3C5522F5D869783B0301B67F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FFD8B69197980A210F6C53B3E882E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81958290B23880EA97319A2608EBCAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9843C1ACECE863B49E6580E22937A349 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0945C0FACEC9D47B652E00681244F78C /* Pods-SuperStepper_Example */ = {
+			isa = PBXGroup;
+			children = (
+				84C99B0D2C115E14632E3AB0701A3378 /* Pods-SuperStepper_Example.modulemap */,
+				546B3968F578E0BFA038FC8CE67FC5DF /* Pods-SuperStepper_Example-acknowledgements.markdown */,
+				8FF9E2CFB094C5570CF8A9C023B0024E /* Pods-SuperStepper_Example-acknowledgements.plist */,
+				5985827A41C5C06E21F4A286FB20F7EF /* Pods-SuperStepper_Example-dummy.m */,
+				45F414090AC341AA69CBEB71DA0AC4C8 /* Pods-SuperStepper_Example-frameworks.sh */,
+				8B445094B6CABD139232D795D0CDB1CB /* Pods-SuperStepper_Example-Info.plist */,
+				12276A1F3A203561672E7899CB73CEB4 /* Pods-SuperStepper_Example-umbrella.h */,
+				C4BBCE6CA9FF151B4F7D9038DE6A16B9 /* Pods-SuperStepper_Example.debug.xcconfig */,
+				E5307B36F8015A5F7F03021A7A3A8231 /* Pods-SuperStepper_Example.release.xcconfig */,
+			);
+			name = "Pods-SuperStepper_Example";
+			path = "Target Support Files/Pods-SuperStepper_Example";
+			sourceTree = "<group>";
+		};
+		0C0D2A83811A3ADD9FA871E960D772F5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0945C0FACEC9D47B652E00681244F78C /* Pods-SuperStepper_Example */,
+				9D52416B445D2DF514910889C3C8A856 /* Pods-SuperStepper_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7583575BCBF97D697234BA06CEDABDF6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99CD6611C9177F34B65CBCEC397E8FCB /* SuperStepper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7D64906677E25A3EF35D0544CD38B6F9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				489EA4DF0BB1C2E7D98994B9AE9C2AB9 /* LICENSE */,
+				2FD3818D7C9030F280EE81A3A2C97EE9 /* README.md */,
+				915D1C2FB06B069E619250B8FA2F3CAB /* SuperStepper.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8ED47A849B8CB161BC28A7E3B4125ED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E06709DBEECE910D8565101B4D359CE5 /* Pods-SuperStepper_Example */,
+				0BC20B7586B7B7FD8A8C17C669554D04 /* Pods-SuperStepper_Tests */,
+				E0104D98A156412AD3F3BFA00EDF50AF /* SuperStepper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		988D3F1F39C1B711E47379BE555A3216 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C4870A0664568E9B6C4FBAC20460FCC /* SuperStepper.modulemap */,
+				2C478D8AA8BF487E0AF9F4335AA7799D /* SuperStepper-dummy.m */,
+				AECF0EB19FD793389013B6997F04D1B7 /* SuperStepper-Info.plist */,
+				A83E7E5838B880F6F8BEBF973DB07BEA /* SuperStepper-prefix.pch */,
+				0A762E77905B4B5B3CEF064CBAC4EDE7 /* SuperStepper-umbrella.h */,
+				2F3A22EA63AC19D507A405FDA6F31B06 /* SuperStepper.debug.xcconfig */,
+				2B337ABA31F6708A334ECA6DA1B712F3 /* SuperStepper.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SuperStepper";
+			sourceTree = "<group>";
+		};
+		99CD6611C9177F34B65CBCEC397E8FCB /* SuperStepper */ = {
+			isa = PBXGroup;
+			children = (
+				33D4D0D6E6FC49705D119D83582CD3CC /* SuperStepper.swift */,
+				7D64906677E25A3EF35D0544CD38B6F9 /* Pod */,
+				988D3F1F39C1B711E47379BE555A3216 /* Support Files */,
+			);
+			name = SuperStepper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9D52416B445D2DF514910889C3C8A856 /* Pods-SuperStepper_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A3303979B816562AEE4FE6C156DE804F /* Pods-SuperStepper_Tests.modulemap */,
+				2D08FB52A5A63FD94E053A6B902B5213 /* Pods-SuperStepper_Tests-acknowledgements.markdown */,
+				2B36380FF330944D00EC7938DF662D1D /* Pods-SuperStepper_Tests-acknowledgements.plist */,
+				1DCF4739AF5149F5180ABAB7B497ABE7 /* Pods-SuperStepper_Tests-dummy.m */,
+				E6FC212FADE3FF2E78E523645A064E47 /* Pods-SuperStepper_Tests-Info.plist */,
+				2FEC30252D1B879B2C93476417D05212 /* Pods-SuperStepper_Tests-umbrella.h */,
+				E5B48F980DDA407FA3F767BB00BBDF9A /* Pods-SuperStepper_Tests.debug.xcconfig */,
+				3CC729424941C9A1B558AA765F0E66F2 /* Pods-SuperStepper_Tests.release.xcconfig */,
+			);
+			name = "Pods-SuperStepper_Tests";
+			path = "Target Support Files/Pods-SuperStepper_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7583575BCBF97D697234BA06CEDABDF6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8ED47A849B8CB161BC28A7E3B4125ED5 /* Products */,
+				0C0D2A83811A3ADD9FA871E960D772F5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3900FC255967B1E79547D563687158D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2B9FF513FD67AE6304CCCC3623A0F37 /* Pods-SuperStepper_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D10DCAA9961CC836E262B6E9D97E3F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DF1D1E181A4D2C4C7C22782B5F8624 /* Pods-SuperStepper_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		705B7680BDF91697BA7C62D29955F5A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09F23CD073AFFAC8676658796289625C /* SuperStepper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6FEE4C370FF6CD2DF917BAD3C721D449 /* Pods-SuperStepper_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF402466472C21EC9DA73C7286746C3B /* Build configuration list for PBXNativeTarget "Pods-SuperStepper_Tests" */;
+			buildPhases = (
+				4D10DCAA9961CC836E262B6E9D97E3F6 /* Headers */,
+				4A3C0717C06FF4FF22956A54B18B54A4 /* Sources */,
+				66E18C44EA30701EA05DE3F3CA08CF13 /* Frameworks */,
+				B2A944C23259C02C957BD29D6700D63A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B74649069121A2828C8D61D076C1C7B /* PBXTargetDependency */,
+			);
+			name = "Pods-SuperStepper_Tests";
+			productName = Pods_SuperStepper_Tests;
+			productReference = 0BC20B7586B7B7FD8A8C17C669554D04 /* Pods-SuperStepper_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		72B579D40718F6FA7EE767E94F82BD45 /* SuperStepper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A8A60297C3A9C08B5FBFB30BD8AD83 /* Build configuration list for PBXNativeTarget "SuperStepper" */;
+			buildPhases = (
+				705B7680BDF91697BA7C62D29955F5A4 /* Headers */,
+				B9836AD8D0254F656AFCF762A1A65CCD /* Sources */,
+				D81958290B23880EA97319A2608EBCAF /* Frameworks */,
+				163FA34CF8A69E7092ADBB62AA41790B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperStepper;
+			productName = SuperStepper;
+			productReference = E0104D98A156412AD3F3BFA00EDF50AF /* SuperStepper */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6A066E847F5C0FE71450718665BB8F2 /* Pods-SuperStepper_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EFEEBD593B77EB450132875EF19846 /* Build configuration list for PBXNativeTarget "Pods-SuperStepper_Example" */;
+			buildPhases = (
+				3900FC255967B1E79547D563687158D7 /* Headers */,
+				96BD6C2F0F8317ABB2CE0E5A4B2E9AA0 /* Sources */,
+				9D3BE55A3C5522F5D869783B0301B67F /* Frameworks */,
+				23E5A556053299C66511B6A823DCF944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7409705AE3079EACAC0BE79E0004AA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-SuperStepper_Example";
+			productName = Pods_SuperStepper_Example;
+			productReference = E06709DBEECE910D8565101B4D359CE5 /* Pods-SuperStepper_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8ED47A849B8CB161BC28A7E3B4125ED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6A066E847F5C0FE71450718665BB8F2 /* Pods-SuperStepper_Example */,
+				6FEE4C370FF6CD2DF917BAD3C721D449 /* Pods-SuperStepper_Tests */,
+				72B579D40718F6FA7EE767E94F82BD45 /* SuperStepper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		163FA34CF8A69E7092ADBB62AA41790B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E5A556053299C66511B6A823DCF944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A944C23259C02C957BD29D6700D63A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A3C0717C06FF4FF22956A54B18B54A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155207A03B4C098A5AA945BD0D12774B /* Pods-SuperStepper_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BD6C2F0F8317ABB2CE0E5A4B2E9AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778101EDD4E68629266BBE58977BE643 /* Pods-SuperStepper_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9836AD8D0254F656AFCF762A1A65CCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85335BE156B53E0828378B0E51B9509 /* SuperStepper.swift in Sources */,
+				A6326F9BC9968792D3AC6B9700E47A1B /* SuperStepper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B74649069121A2828C8D61D076C1C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SuperStepper_Example";
+			target = C6A066E847F5C0FE71450718665BB8F2 /* Pods-SuperStepper_Example */;
+			targetProxy = 8E7E1013298C13FA573847CE548A6A32 /* PBXContainerItemProxy */;
+		};
+		F7409705AE3079EACAC0BE79E0004AA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SuperStepper;
+			target = 72B579D40718F6FA7EE767E94F82BD45 /* SuperStepper */;
+			targetProxy = 08B005DC4CCFF884214D361BE9D70782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		018F498D8DD719EAFE83D12600F5AD41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CC729424941C9A1B558AA765F0E66F2 /* Pods-SuperStepper_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SuperStepper_Tests/Pods-SuperStepper_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SuperStepper_Tests/Pods-SuperStepper_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		020CAAA7ABD05B3C8F2694E22AC7AF0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4BBCE6CA9FF151B4F7D9038DE6A16B9 /* Pods-SuperStepper_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SuperStepper_Example/Pods-SuperStepper_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SuperStepper_Example/Pods-SuperStepper_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		82487852E74ABE0ECA2E2443FA9A72E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5B48F980DDA407FA3F767BB00BBDF9A /* Pods-SuperStepper_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SuperStepper_Tests/Pods-SuperStepper_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SuperStepper_Tests/Pods-SuperStepper_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C0B6D52729C188F7320ADCAFE2FFA06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F3A22EA63AC19D507A405FDA6F31B06 /* SuperStepper.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SuperStepper/SuperStepper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SuperStepper/SuperStepper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SuperStepper/SuperStepper.modulemap";
+				PRODUCT_MODULE_NAME = SuperStepper;
+				PRODUCT_NAME = SuperStepper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC2F65E794301850C422B4130B00A32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5307B36F8015A5F7F03021A7A3A8231 /* Pods-SuperStepper_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SuperStepper_Example/Pods-SuperStepper_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SuperStepper_Example/Pods-SuperStepper_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E66391EDC0696064CD23AE9FC6CB18B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B337ABA31F6708A334ECA6DA1B712F3 /* SuperStepper.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SuperStepper/SuperStepper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SuperStepper/SuperStepper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SuperStepper/SuperStepper.modulemap";
+				PRODUCT_MODULE_NAME = SuperStepper;
+				PRODUCT_NAME = SuperStepper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6EFEEBD593B77EB450132875EF19846 /* Build configuration list for PBXNativeTarget "Pods-SuperStepper_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020CAAA7ABD05B3C8F2694E22AC7AF0C /* Debug */,
+				BC2F65E794301850C422B4130B00A32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A8A60297C3A9C08B5FBFB30BD8AD83 /* Build configuration list for PBXNativeTarget "SuperStepper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C0B6D52729C188F7320ADCAFE2FFA06 /* Debug */,
+				E66391EDC0696064CD23AE9FC6CB18B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF402466472C21EC9DA73C7286746C3B /* Build configuration list for PBXNativeTarget "Pods-SuperStepper_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82487852E74ABE0ECA2E2443FA9A72E6 /* Debug */,
+				018F498D8DD719EAFE83D12600F5AD41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

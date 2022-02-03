@@ -1,0 +1,6 @@
+framework module SuperStepper {
+  umbrella header "SuperStepper-umbrella.h"
+
+  export *
+  module * { export * }
+}

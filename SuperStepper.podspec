@@ -21,16 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/chanwoo/SuperStepper'
+  s.homepage         = 'https://github.com/GREENOVER/SuperStepper'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'chanwoo' => 'humains29@gmail.com' }
-  s.source           = { :git => 'https://github.com/chanwoo/SuperStepper.git', :tag => s.version.to_s }
+  s.author           = { 'GREEN' => 'humains29@gmail.com' }
+  s.source           = { :git => 'https://github.com/GREENOVER/SuperStepper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '14.0'
 
   s.source_files = 'SuperStepper/Classes/**/*'
+  s.swift_versions = '5.0'
   
   # s.resource_bundles = {
   #   'SuperStepper' => ['SuperStepper/Assets/*.png']

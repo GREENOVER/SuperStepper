@@ -1,0 +1,22 @@
+{
+  "name": "SuperStepper",
+  "version": "0.1.0",
+  "summary": "A short description of SuperStepper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chanwoo/SuperStepper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chanwoo": "humains29@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/chanwoo/SuperStepper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SuperStepper/Classes/**/*"
+}
