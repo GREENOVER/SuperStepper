@@ -10,7 +10,7 @@
 		0956ED0C6ECAE4C66ECEDF39 /* Pods_SuperStepper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8A7B1746B4D6A0E831EC62 /* Pods_SuperStepper_Tests.framework */; };
 		12FAAC0F27AB496C0096A242 /* SuperStepperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FAAC0E27AB496C0096A242 /* SuperStepperApp.swift */; };
 		12FAAC1127AB49A00096A242 /* SuperStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FAAC1027AB49A00096A242 /* SuperStepperView.swift */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
+		607FACDD1AFB9204008FA782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Assets.xcassets */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		69BB5A7FE0AF54B408202C46 /* Pods_SuperStepper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D697CDCA6487AC83F29F5378 /* Pods_SuperStepper_Example.framework */; };
 /* End PBXBuildFile section */
@@ -34,7 +34,7 @@
 		4C22E5F1C7EFBF88B137827C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SuperStepper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperStepper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		607FACDC1AFB9204008FA782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SuperStepper_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperStepper_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 				12FAAC0D27AB496C0096A242 /* SuperStepper_Example-Bridging-Header.h */,
 				12FAAC0E27AB496C0096A242 /* SuperStepperApp.swift */,
 				12FAAC1027AB49A00096A242 /* SuperStepperView.swift */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				607FACDC1AFB9204008FA782 /* Assets.xcassets */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for SuperStepper";
@@ -242,7 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				607FACDD1AFB9204008FA782 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +465,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -484,6 +485,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "SuperStepper/SuperStepper_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
