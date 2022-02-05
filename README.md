@@ -74,7 +74,7 @@ If your're curious, use the code in the example forlder
 - Xcode 11 / Swift 5   
 
 ## Cocoapods Install
-Add ``pod 'SuperStepper'` to your Podfile.    
+Add pod 'SuperStepper' to your Podfile.    
 SuperStepper is available through [CocoaPods](https://cocoapods.org).    
 To install it, simply add the following line to your Podfile:   
 ```ruby
@@ -88,7 +88,7 @@ See you soon 🙏🏻
 See you soon 🙏
 
 ## How to contribute
-**In the case below, please send us a PR 🙌
+**In the case below, please send us a PR 🙌**
 - Typo correction
 - Add a better Feature
 - Fix Error
