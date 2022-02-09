@@ -82,6 +82,7 @@ If your're curious, use the code in the example forlder
 ✨ Add the disabled function of the button</br>
 ♻️ Change the button font we want</br> 
 ✨ Change the SuperStepper border we want</br> 
+✨ Add support SPM</br>
 </details>
 
 ## Requirements
