@@ -8,7 +8,7 @@
 **Everyone can be used and customized in various ways without errors in SwiftUI**   
 Existing Stepper don't working properly in navigationLink    
 But SuperStepper made up for them      
-Actually, It's so convenient to use 🙌
+Actually, It's so convenient to use 🙌   
 
 ## Various customized SuperStepper
 ![1](https://user-images.githubusercontent.com/72292617/152622772-7a844b41-d530-4a65-8eb6-22bfd356fd2c.gif) 
@@ -33,7 +33,7 @@ struct YourView: View {
     }
   }
 }
-```   
+```
 need to state property for binding with SuperStepper   
 - Customize
 ```swift
@@ -64,9 +64,28 @@ struct YourView: View {
     }
   }
 }
-```   
+```
 Everything we want 😀   
 If your're curious, use the code in the example forlder   
+
+## Requirements
+**only can use in SwiftUI**   
+
+## Update list by version
+<details>
+<summary><b>v0.1.1</b></summary>
+✨ The initial setting of the SuperStepper</br>
+</details>
+<details>
+<summary><b>v0.1.2</b></summary>
+♻️ Modularize the SuperStepper</br>
+</details>
+<details>
+<summary><b>v0.1.3</b></summary>
+✨ Add the disabled function of the button</br>
+♻️ Change the button font we want</br> 
+✨ Change the SuperStepper border we want</br> 
+</details>
 
 ## Requirements
 **only can use in SwiftUI**   
