@@ -68,9 +68,6 @@ struct YourView: View {
 Everything we want 😀   
 If your're curious, use the code in the example forlder   
 
-## Requirements
-**only can use in SwiftUI**   
-
 ## Update list by version
 <details>
 <summary><b>v0.1.1</b></summary>
