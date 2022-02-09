@@ -12,10 +12,14 @@ public struct SuperStepperView: View {
   public var minimumDecreaseTitleColor: Color
   public var increaseTitleColor: Color
   public var maximumIncreaseTitleColor: Color
+  public var decreaseTitleFont: Font
+  public var increaseTitleFont: Font
   public var separatorColor: Color
   public var seperatorWidth: Double
   public var separatorHeight: Double
   public var backgroundColor: Color
+  public var borderColor: Color
+  public var borderLineWidth: Double
   public var cornerRadius: Double
   public var stepperSpacing: Double
   
@@ -30,10 +34,14 @@ public struct SuperStepperView: View {
     minimumDecreaseTitleColor: Color = Color(red: 178/255, green: 178/255, blue: 179/255),
     increaseTitleColor: Color = Color(red: 64/255, green: 64/255, blue: 65/255),
     maximumIncreaseTitleColor: Color = Color(red: 178/255, green: 178/255, blue: 179/255),
+    decreaseTitleFont: Font = .title,
+    increaseTitleFont: Font = .title,
     separatorColor: Color = Color(red: 220/255, green: 220/255, blue: 221/255),
     seperatorWidth: Double = 1,
     separatorHeight: Double = 15,
     backgroundColor: Color = Color(red: 238/255, green: 238/255, blue: 239/255),
+    borderColor: Color = .white,
+    borderLineWidth: Double = 0,
     cornerRadius: Double = 10,
     stepperSpacing: Double = 0
   ) {
@@ -47,10 +55,14 @@ public struct SuperStepperView: View {
     self.minimumDecreaseTitleColor = minimumDecreaseTitleColor
     self.increaseTitleColor = increaseTitleColor
     self.maximumIncreaseTitleColor = maximumIncreaseTitleColor
+    self.decreaseTitleFont = decreaseTitleFont
+    self.increaseTitleFont = increaseTitleFont
     self.separatorColor = separatorColor
     self.seperatorWidth = seperatorWidth
     self.separatorHeight = separatorHeight
     self.backgroundColor = backgroundColor
+    self.borderColor = borderColor
+    self.borderLineWidth = borderLineWidth
     self.cornerRadius = cornerRadius
     self.stepperSpacing = stepperSpacing
   }
@@ -58,7 +70,9 @@ public struct SuperStepperView: View {
   public var body: some View {
     HStack(spacing: stepperSpacing) {
       StepperView(
+        disabled: .constant(count <= minimumCount),
         title: decreaseTitleText,
+        titleFont: decreaseTitleFont,
         color: count == minimumCount ? minimumDecreaseTitleColor : decreaseTitleColor
       ) {
         if count > minimumCount {
@@ -68,7 +82,9 @@ public struct SuperStepperView: View {
       Rectangle().foregroundColor(separatorColor)
         .frame(width: seperatorWidth, height: separatorHeight)
       StepperView(
+        disabled: .constant(count >= maximumCount),
         title: increaseTitleText,
+        titleFont: increaseTitleFont,
         color: count == maximumCount ? maximumIncreaseTitleColor : increaseTitleColor
       ) {
         if count < maximumCount {
@@ -78,14 +94,20 @@ public struct SuperStepperView: View {
     }
     .background(backgroundColor.edgesIgnoringSafeArea(.all))
     .cornerRadius(cornerRadius)
+    .overlay(
+      RoundedRectangle(cornerRadius: cornerRadius)
+        .stroke(borderColor, lineWidth: borderLineWidth)
+    )
   }
 }
 
 @available(iOS 14.0, *)
 public struct StepperView: View {
+  @Binding var disabled: Bool
   @State public var timer: Timer?
   @State public var isLongPressing = false
   public var title: String
+  public var titleFont: Font
   public var color: Color
   public var action: () -> Void
   public var labelHorizontalPadding: Double
@@ -96,7 +118,9 @@ public struct StepperView: View {
   public var timeInterval: Double
   
   public init(
+    disabled: Binding<Bool> = .constant(false),
     title: String,
+    titleFont: Font,
     color: Color,
     action: @escaping () -> Void = {},
     labelHorizontalPadding: Double = 16,
@@ -106,7 +130,9 @@ public struct StepperView: View {
     minimumDuration: Double = 0.5,
     timeInterval: Double = 0.1
   ) {
+    _disabled = disabled
     self.title = title
+    self.titleFont = titleFont
     self.color = color
     self.action = action
     self.labelHorizontalPadding = labelHorizontalPadding
@@ -130,7 +156,7 @@ public struct StepperView: View {
       label: {
         HStack(spacing: 0) {
           Text(title)
-            .font(.largeTitle)
+            .font(titleFont)
             .padding(.horizontal, labelHorizontalPadding)
             .padding(.vertical, labelVerticalPadding)
         }
@@ -159,5 +185,14 @@ public struct StepperView: View {
             self.timer?.invalidate()
           }
       )
+      .onChange(
+        of: disabled,
+        perform: { newValue in
+          if newValue {
+            self.timer?.invalidate()
+          }
+        }
+      )
+      .disabled(disabled)
   }
 }
