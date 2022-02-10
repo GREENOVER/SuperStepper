@@ -53,11 +53,15 @@ struct YourView: View {
         minimumDecreaseTitleColor: .gray,
         increaseTitleColor: .blue,
         maximumIncreaseTitleColor: .gray,
+        decreaseTitleFont: .body,
+        increaseTitleFont: .body,
         separatorColor: .black,
         seperatorWidth: 5,
         separatorHeight: 20,
         backgroundColor: .yellow,
-        cornerRadius: 20,
+        borderColor: .blue,
+        borderLineWidth: 1,
+        cornerRadius: 5,
         stepperSpacing: 5
       )
       Text("count number is \(count)")
