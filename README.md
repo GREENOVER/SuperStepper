@@ -1,5 +1,6 @@
 ![스크린샷 2022-02-05 오전 9 48 57](https://user-images.githubusercontent.com/72292617/152621594-94fbb5fa-4e28-46ca-a6dc-4530189d5256.png)
 [![Version](https://img.shields.io/cocoapods/v/SuperStepper.svg?style=flat)](https://cocoapods.org/pods/SuperStepper)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/SuperStepper.svg?style=flat)](https://cocoapods.org/pods/SuperStepper)
 [![Platform](https://img.shields.io/cocoapods/p/SuperStepper.svg?style=flat)](https://cocoapods.org/pods/SuperStepper)
 [![CI Status](https://img.shields.io/travis/chanwoo/SuperStepper.svg?style=flat)](https://travis-ci.org/chanwoo/SuperStepper)
@@ -88,6 +89,10 @@ If your're curious, use the code in the example forlder
 ✨ Change the SuperStepper border we want</br> 
 ✨ Add support SPM</br>
 </details>
+<details>
+<summary><b>v1.0.0</b></summary>
+✨ Add Support Carthage</br>
+</details>
 
 ## Requirements
 **only can use in SwiftUI**   
@@ -107,14 +112,17 @@ pod 'SuperStepper'
 dependencies: [
     .package(url: "https://github.com/GREENOVER/SuperStepper.git", .upToNextMajor(from: "0.1.3"))
 ]
-```   
+```
 In the Xcode 13.0+ enter SuperStepper URL in Add Package Dependency   
 ```
 https://github.com/GREENOVER/SuperStepper  
-```   
+```
 
 ## Carthage Install
-See you soon 🙏
+Add below code in your Cartfile   
+```
+github "GREENOVER/SuperStepper"
+```
 
 ## How to contribute
 **In the case below, please send us a PR 🙌**
