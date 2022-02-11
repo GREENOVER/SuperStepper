@@ -110,7 +110,7 @@ pod 'SuperStepper'
 ## Swift Package Manager Install
 ```swift
 dependencies: [
-    .package(url: "https://github.com/GREENOVER/SuperStepper.git", .upToNextMajor(from: "0.1.3"))
+    .package(url: "https://github.com/GREENOVER/SuperStepper.git", .upToNextMajor(from: "1.0.0"))
 ]
 ```
 In the Xcode 13.0+ enter SuperStepper URL in Add Package Dependency   
