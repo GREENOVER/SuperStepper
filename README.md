@@ -1,9 +1,10 @@
 ![스크린샷 2022-02-05 오전 9 48 57](https://user-images.githubusercontent.com/72292617/152621594-94fbb5fa-4e28-46ca-a6dc-4530189d5256.png)
+<img src="https://img.shields.io/badge/Platform-iOS_14+-green.svg" alt="Platform: iOS 14.0+" />
+  <a href="https://developer.apple.com/swift" target="_blank"><img src="https://img.shields.io/badge/Language-Swift_5-blueviolet.svg" alt="Language: Swift 5" /></a>
 [![Version](https://img.shields.io/cocoapods/v/SuperStepper.svg?style=flat)](https://cocoapods.org/pods/SuperStepper)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/SuperStepper.svg?style=flat)](https://cocoapods.org/pods/SuperStepper)
-[![Platform](https://img.shields.io/cocoapods/p/SuperStepper.svg?style=flat)](https://cocoapods.org/pods/SuperStepper)
-[![CI Status](https://img.shields.io/travis/chanwoo/SuperStepper.svg?style=flat)](https://travis-ci.org/chanwoo/SuperStepper)
+
 
 ## What is SuperStepper?
 **Everyone can be used and customized in various ways without errors in SwiftUI**   
