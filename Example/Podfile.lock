@@ -1,5 +1,5 @@
 PODS:
-  - SuperStepper (0.1.0)
+  - SuperStepper (1.0.0)
 
 DEPENDENCIES:
   - SuperStepper (from `../`)

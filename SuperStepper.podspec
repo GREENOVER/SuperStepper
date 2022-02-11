@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SuperStepper'
-  s.version          = '0.1.3'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of SuperStepper.'
 
 # This description is used to generate tags and improve search results.
