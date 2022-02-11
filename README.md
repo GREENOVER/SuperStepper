@@ -121,7 +121,7 @@ https://github.com/GREENOVER/SuperStepper
 ## Carthage Install
 Add below code in your Cartfile   
 ```
-github "GREENOVER/SuperStepper"
+github "GREENOVER/SuperStepper" ~> 1.0.0
 ```
 
 ## How to contribute
