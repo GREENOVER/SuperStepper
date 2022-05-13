@@ -22,6 +22,8 @@ public struct SuperStepperView: View {
   public var borderLineWidth: Double
   public var cornerRadius: Double
   public var stepperSpacing: Double
+  public var onIncrement: (() -> Void)?
+  public var onDecrement: (() -> Void)?
   
   public init(
     count: Binding<Int>,
@@ -43,7 +45,9 @@ public struct SuperStepperView: View {
     borderColor: Color = .white,
     borderLineWidth: Double = 0,
     cornerRadius: Double = 10,
-    stepperSpacing: Double = 0
+    stepperSpacing: Double = 0,
+    onIncrement: (() -> Void)? = nil,
+    onDecrement: (() -> Void)? = nil
   ) {
     _count = count
     self.steppingCount = steppingCount
@@ -65,6 +69,8 @@ public struct SuperStepperView: View {
     self.borderLineWidth = borderLineWidth
     self.cornerRadius = cornerRadius
     self.stepperSpacing = stepperSpacing
+    self.onIncrement = onIncrement
+    self.onDecrement = onDecrement
   }
   
   public var body: some View {
@@ -75,7 +81,9 @@ public struct SuperStepperView: View {
         titleFont: decreaseTitleFont,
         color: count == minimumCount ? minimumDecreaseTitleColor : decreaseTitleColor
       ) {
-        if count > minimumCount {
+        if let onDecrement = onDecrement {
+          onDecrement()
+        } else if count > minimumCount {
           count -= steppingCount
         }
       }
@@ -87,7 +95,9 @@ public struct SuperStepperView: View {
         titleFont: increaseTitleFont,
         color: count == maximumCount ? maximumIncreaseTitleColor : increaseTitleColor
       ) {
-        if count < maximumCount {
+        if let onIncrement = onIncrement {
+          onIncrement()
+        } else if count < maximumCount {
           count += steppingCount
         }
       }
