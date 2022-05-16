@@ -94,6 +94,9 @@ If your're curious, use the code in the example forlder
 <summary><b>v1.0.0</b></summary>
 ✨ Add Support Carthage</br>
 </details>
+<summary><b>v1.1.0</b></summary>
+✨ Add increment and decrement arguments</br>
+</details>
 
 ## Requirements
 **only can use in SwiftUI**   
