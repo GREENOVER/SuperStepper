@@ -115,7 +115,7 @@ pod 'SuperStepper'
 ## Swift Package Manager Install
 ```swift
 dependencies: [
-    .package(url: "https://github.com/GREENOVER/SuperStepper.git", .upToNextMajor(from: "1.0.0"))
+    .package(url: "https://github.com/GREENOVER/SuperStepper.git", .upToNextMajor(from: "1.1.0"))
 ]
 ```
 In the Xcode 13.0+ enter SuperStepper URL in Add Package Dependency   
@@ -126,7 +126,7 @@ https://github.com/GREENOVER/SuperStepper
 ## Carthage Install
 Add below code in your Cartfile   
 ```
-github "GREENOVER/SuperStepper" ~> 1.0.0
+github "GREENOVER/SuperStepper" ~> 1.1.0
 ```
 
 ## How to contribute
